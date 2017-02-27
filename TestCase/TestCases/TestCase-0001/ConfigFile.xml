@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Train-->
+<TRAIN_FILE_PATH>../../DataSet/boston_house.csv</TRAIN_FILE_PATH>
+<MODEL_FILE_PATH></MODEL_FILE_PATH>
+
+<KEEP_FOREST>true</KEEP_FOREST> <!--If set to false, the forest will not be retained in the output object. true or false-->
+<FOREST_TYPE>RegressionForest</FOREST_TYPE> <!--ClassificationForest or RegressionForest-->
+<TREE_NUM>128</TREE_NUM>
+<MIN_TERMINAL_NODE_SIZE>5</MIN_TERMINAL_NODE_SIZE> <!--Minimum size of terminal nodes. Classification:1; Regression:5-->
+<MAX_NODE_NUM>0</MAX_NODE_NUM>
+
+<INSTANCE_SAMPLE_REPLACEMENT>true</INSTANCE_SAMPLE_REPLACEMENT> <!--true or false-->
+<INSTANCE_SAMPLE_RATE>1</INSTANCE_SAMPLE_RATE>   <!--(0,1]-->
+<VARIABLE_SAMPLE_RATE>0.7</VARIABLE_SAMPLE_RATE> <!--(0,1]-->
+<VARIABLE_IMPORTANCE>true</VARIABLE_IMPORTANCE> <!--Should importance of predictors be assessed? true or false-->
+<VARIABLE_NAME_EXIST>true</VARIABLE_NAME_EXIST> <!--true or false-->
+<VARIABLE_NUM>12</VARIABLE_NUM>
+
+<RESPONSE_VARIABLE_NUM>1</RESPONSE_VARIABLE_NUM>
+<RESPONSE_VARIABLE_INDEX_SET>13</RESPONSE_VARIABLE_INDEX_SET> <!--Start from 1-->
+
+<OUT_OF_BAG_ONLY>false</OUT_OF_BAG_ONLY> <!--Should proximity be calculated only on out-of-bag data? true or false-->
+
+<!--Predict-->
+<KEEP_PREDICT>true</KEEP_PREDICT> <!--If set to false, the predict result will not be retained in the output object. true or false-->
+<PREDICT_INPUT_FILE_PATH></PREDICT_INPUT_FILE_PATH>
+<PREDICT_OUTPUT_FILE_PATH></PREDICT_OUTPUT_FILE_PATH>
+
+<!--Other-->
+<EXCUTE_MODE>CPU_ONLY</EXCUTE_MODE>
+<K_FOLD_CROSS_VALIDATION>10</K_FOLD_CROSS_VALIDATION>

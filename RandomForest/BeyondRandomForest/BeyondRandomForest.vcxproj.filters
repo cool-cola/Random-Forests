@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{11f6037a-736d-447c-8080-b4f3a7e442c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{abe11f0a-f362-415a-9f0c-c4fe9b14bd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3c9a815c-87c4-48db-939c-43e3edd3e588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forest">
+      <UniqueIdentifier>{0af3cfb4-77cb-463d-b9ec-262d6f1ecec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{9a9c5bb1-47b6-40a9-ac7f-94a11660cd3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RandomForest_EXPORTS.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestInterface.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTable.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
+      <Filter>Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="RegressionForest.h">
+      <Filter>Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationForest.h">
+      <Filter>Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU_RegressionForest.h">
+      <Filter>Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestMacro.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BootstrapDataset.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RandomForestInterface.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTable.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="RegressionForest.cpp">
+      <Filter>Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForestConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationForest.cpp">
+      <Filter>Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU_RegressionForest.cpp">
+      <Filter>Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="BootstrapDataset.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
