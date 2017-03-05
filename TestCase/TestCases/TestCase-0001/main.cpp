@@ -35,5 +35,6 @@ int main()
 		hiveCommon::hiveOutputWarning(__EXCEPTION_SITE__, "The program is terminated due to unexpected error.");
 	}
 	
+	system("pause");
 	return 0;
 }

@@ -2,7 +2,7 @@
 
 <!--Train-->
 <TRAIN_FILE_PATH>../../DataSet/boston_house.csv</TRAIN_FILE_PATH>
-<MODEL_FILE_PATH></MODEL_FILE_PATH>
+<MODEL_FILE_PATH>randomForest.rfmodel</MODEL_FILE_PATH>
 
 <KEEP_FOREST>true</KEEP_FOREST> <!--If set to false, the forest will not be retained in the output object. true or false-->
 <FOREST_TYPE>RegressionForest</FOREST_TYPE> <!--ClassificationForest or RegressionForest-->
@@ -24,8 +24,8 @@
 
 <!--Predict-->
 <KEEP_PREDICT>true</KEEP_PREDICT> <!--If set to false, the predict result will not be retained in the output object. true or false-->
-<PREDICT_INPUT_FILE_PATH></PREDICT_INPUT_FILE_PATH>
-<PREDICT_OUTPUT_FILE_PATH></PREDICT_OUTPUT_FILE_PATH>
+<PREDICT_INPUT_FILE_PATH>abc</PREDICT_INPUT_FILE_PATH>
+<PREDICT_OUTPUT_FILE_PATH>def</PREDICT_OUTPUT_FILE_PATH>
 
 <!--Other-->
 <EXCUTE_MODE>CPU_ONLY</EXCUTE_MODE>
