@@ -6,3 +6,5 @@ Mainly completing the serial Regression Forests version and its parallel version
 3. The CUDA version realize the parallel Regression Forests
 4. To get the performance that **O(training) < 30ms** and **O(predicting) < 15ms**
 5. To extend the RF function using derive and boost::function and so on
+# Note
+we are based on the HIVE that is a game engine developed by our lab!
